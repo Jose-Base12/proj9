@@ -1,0 +1,20 @@
+[
+    {
+        "id": "246ebe73-53be-4ff8-8cbb-3b3a355ed828",
+        "shortName": "Bench Press",
+        "name": "Bench Press",
+        "imageUrl": "https://www.tonal.com/wp-content/uploads/2022/09/Barbell-Bench-Press.jpg?w=100"
+    },
+    {
+        "id": "cc4250c0-c5da-463f-8441-517a47914665",
+        "shortName": "Racked Offset Squat",
+        "name": "Racked Offset Squat",
+        "imageUrl": "https://www.tonal.com/wp-content/uploads/2023/03/Sqaut-Hero.jpg?w=100"
+    },
+    {
+        "id": "022750dd-f732-4cfb-b68e-ccbb5df495f0",
+        "shortName": "Biceps Curl",
+        "name": "Barbell Biceps Curl",
+        "imageUrl": "https://www.tonal.com/wp-content/uploads/2022/10/Seated-Bicep-Curl.jpg?w=100"
+    }
+]
