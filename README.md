@@ -19,4 +19,10 @@ Messy code doesn't stay inside the codebase it infects the entire orginization. 
 
 MVVM is a deliberate, scalable, production ready architectual design choice. The Flutter team at Google recommends it and it is the same architecture my team used on the Jimmy John's mobile app.
 
+MVVM gives you unidirectional data flow ⚡️ Data moves from layer to layer through constructors. Establishing clear connections between classes. Each layer recieves what it needs and nothing more. 
+
+
+
+
+
 
