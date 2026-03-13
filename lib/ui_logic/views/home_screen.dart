@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                   // Image displayed using asset instead of imageURL because
                   // imageURL is broken
                   child: Image.asset(
-                    'assets/images/tonal_logo.png',
+                    'assets/images/check_mark.jpg',
                   ),
                 ),
               );
