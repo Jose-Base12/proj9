@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proj9/ui_logic/view_models/movement_view_model.dart';
+import 'package:proj9/ui_logic/view_models/exercise_view_model.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -15,21 +15,19 @@ class HomeScreen extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: Consumer<MovementViewModel>(
-        builder: (context, movementViewModel, child) {
+      body: Consumer<ExerciseViewModel>(
+        builder: (context, exerciseViewModel, child) {
           return ListView.builder(
-            itemCount: movementViewModel.movementDomainModelsList.length,
+            itemCount: exerciseViewModel.exerciseDomainModelsList.length,
             itemBuilder: (context, index) {
               return ListTile(
                 title: Text(
-                  movementViewModel.movementDomainModelsList[index].name,
+                  exerciseViewModel.exerciseDomainModelsList[index].name,
                 ),
                 subtitle: Text(
-                  movementViewModel.movementDomainModelsList[index].shortName,
+                  exerciseViewModel.exerciseDomainModelsList[index].shortName,
                 ),
                 leading: CircleAvatar(
-                  // Image displayed using asset instead of imageURL because
-                  // imageURL is broken
                   child: Image.asset(
                     'assets/images/check_mark.jpg',
                   ),
