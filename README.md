@@ -72,7 +72,7 @@ ___
 
 ---
 
-🗂️ **proj9 Architecure Overview**
+🗂️ **proj9 Architecture Overview**
 
 External API -> 🌐 Service -> 🧱 Domain Model -> 📦 Repository -> 🔗 ViewModel -> 🎨 View
 
