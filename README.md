@@ -1,5 +1,5 @@
 # proj9
-> Flutter gives us the tools, MVVM gives us the structure. proj9 brings both together.
+> The purpose of proj9 is to showcase a clear example of the advantages of deliberate architectual design for both developers and business leaders.
 
 ## 🔥 MVVM for Mobile Applications
 
@@ -69,5 +69,18 @@ ___
 🔗 **ViewModels**
 
 **ViewModels** are responsible for managing UI logic and state.They recieve domain models from the business logic layer (repository) and expose that data to the View. ViewModels also encapsulate the logic behind user interaction such as onTap. These methods are exposed to the View as callback methods.
+
+---
+
+🔁 **Application Data Flow**
+
+1. Services fetch raw data from an external API endpoint.
+2. Domain Model(s) are created to represent the raw data.
+3. The repository recieves the raw data from a service and converts it into a domain model.
+4. The ViewModel recieves the domain model from the repository and uses it to manage the UI state.
+5. The View listens to the ViewModel and renders the UI based on the current state.
+
+
+
 
 
