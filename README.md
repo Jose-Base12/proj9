@@ -24,6 +24,10 @@ MVVM gives each view (UI component) exactly one view-model. Thus each pair of vi
 
 MVVM enforces a clear folder structure. The ui_logic folder is responsible for your views and view-models. The business_logic folder is responsible for your repositories, services, and domain models.
 
+## 🧩 Seperation of Concerns
+
+Seperation of Concerns is a core principle in software developement. It promotes modularity, scalability, and maintainability by dividing application functionality into distinct, self contained units. From a high level this means seperating your UI logic from you business logic. 
+
 ### The **business logic layer** is organized into **3 components**: 
 
 - 🌐 **Services**
