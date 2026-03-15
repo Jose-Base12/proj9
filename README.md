@@ -49,7 +49,7 @@ Seperation of Concerns is a core principle in software development. It promotes 
 ---
 📦 **Repository**
 
-**Repositories** transform raw data (json) returned from a service into domain model instances. These domain model instances are then passed to the ViewModel allowing the view (UI) to work with clean structured application data.
+**Repositories** transform raw data (JSON) returned from a service into domain model instances. These domain model instances are then passed to the ViewModel, allowing the view (UI) to work with clean, structured application data.
 
 ---
 
