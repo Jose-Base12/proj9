@@ -4,11 +4,10 @@
 ## 🔥 Clean speration. Zero compromise.
 
 proj9 is a deliberate architectual statement.
-Every decision was made with one philosophy in mind.
 
 **Clean seperation. Zero compromise.**
 
-## 🏛️ Software Architecture 
+## 🏛️ Software Architecture Commentary
 
 Most mobile applications (software in general) *start* with good intentions but are written with a 'i'm here to collect a check intention'💸 and the codebase reflects that.
 
