@@ -1,5 +1,5 @@
 # proj9
-> Flutter gives us the tools, MVVM gives us the discipline. proj9 brings both together.
+> Flutter gives us the tools, MVVM gives us the structure. proj9 brings both together.
 
 ## 🔥 Clean speration. Zero compromise.
 
