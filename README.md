@@ -49,10 +49,25 @@ Seperation of Concerns is a core principle in software developement. It promotes
 ---
 📦 **Repository**
 
-**Repositories** transform raw data (json) returned from a service into domain model instances. These domain model instances are then passed to the ViewModel allowing the view (UI) to work with clean structured application data. 
+**Repositories** transform raw data (json) returned from a service into domain model instances. These domain model instances are then passed to the ViewModel allowing the view (UI) to work with clean structured application data.
 
+---
 
+### The **UI logic layer** is organized into **2 components**:
 
+- 🎨 **Views**
 
+- 🔗 **ViewModels**
+___
+
+🎨 **Views**
+
+**Views** are responsible for rendering the user interface and handling user interaction. It listens for events such as button presses, gestures, or voice commands and fowards those events to its corresponding ViewModel. 
+
+---
+
+🔗 **ViewModels**
+
+**ViewModels** are responsible for managing UI logic and state.They recieve domain models from the business logic layer (repository) and expose that data to the View. ViewModels also encapsulate the logic behind user interaction such as onTap. These methods are exposed to the View as callback methods.
 
 
