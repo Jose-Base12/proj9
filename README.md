@@ -72,7 +72,9 @@ ___
 
 ---
 
-🔁 **Application Data Flow**
+🗂️ **proj9 Architecure Overview**
+
+External API -> 🌐 Service -> 🧱 Domain Model -> 📦 Repository -> 🔗 ViewModel -> 🎨 View
 
 1. Services fetch raw data from an external API endpoint.
 2. Domain Model(s) are created to represent the raw data.
