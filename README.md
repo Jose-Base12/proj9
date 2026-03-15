@@ -62,13 +62,13 @@ ___
 
 🎨 **Views**
 
-**Views** are responsible for rendering the user interface and handling user interaction. They listen for events such as button presses, gestures, or voice commands and forwards those events to its corresponding ViewModel. 
+**Views** are responsible for rendering the user interface and handling user interaction. They listen for events such as button presses, gestures, or voice commands and forward those events to its corresponding ViewModel. 
 
 ---
 
 🔗 **ViewModels**
 
-**ViewModels** are responsible for managing UI logic and state.They receive domain models from the business logic layer (repository) and expose that data to the View. ViewModels also encapsulate the logic behind user interaction such as onTap. These methods are exposed to the View as callback methods.
+**ViewModels** are responsible for managing UI logic and state. They receive domain models from the business logic layer (repository) and expose that data to the View. ViewModels also encapsulate the logic behind user interaction such as onTap. These methods are exposed to the View as callback methods.
 
 ---
 
