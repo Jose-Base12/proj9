@@ -15,13 +15,13 @@ Messy code doesn't stay inside the codebase it infects the entire orginization. 
 
 ## 📐 MVVM Benefits
 
-MVVM is a deliberate, scalable, production ready architectual design choice. The Flutter team at Google recommends it and it is the same architecture my team used on the Jimmy John's mobile application.
+- MVVM is a deliberate, scalable, production ready architectual design choice. The Flutter team at Google recommends it and it is the same architecture my team used on the Jimmy John's mobile application.
 
-MVVM gives you unidirectional data flow ⚡️ Data moves from layer to layer through constructors. Establishing clear connections between classes. Each layer recieves what it needs and nothing more. 
+- MVVM gives you unidirectional data flow. Data moves from layer to layer through constructors. Establishing clear connections between classes. Each layer recieves what it needs and nothing more. 
 
-MVVM gives each view (UI component) exactly one view-model. Thus each pair of view and ViewModel make up the UI layer for a single feature.
+- MVVM gives each view (UI component) exactly one view-model. Thus each pair of view and ViewModel make up the UI layer for a single feature.
 
-MVVM enforces a clear folder structure. The ui_logic folder is responsible for your views and view-models. The business_logic folder is responsible for your repositories, services, and domain models.
+- MVVM enforces a clear folder structure. The ui_logic folder is responsible for your views and view-models. The business_logic folder is responsible for your repositories, services, and domain models.
 
 ## 🧩 Seperation of Concerns
 
