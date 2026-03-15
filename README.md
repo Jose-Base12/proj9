@@ -11,11 +11,11 @@ Most mobile applications (software in general) *start* with good intentions but 
 
 The result is business logic scattered across widgets (objects), API calls being made by the UI Layer, and a codebase nobody wants to touch😤
 
-Messy code doesn't stay inside the codebase it infects the entire organization. It creates stressed out developers, stressed out CTOs, stressed out product managers, stressed out clients, and stressed out business owners. Instead of the codebase serving the business the business begins to serve the codebase. And the further you are from the code itself, the harder it is to see that the codebase is the real problem. From the outside, it may look like slow developers, missed deadlines, angry clients, engineers quitting, and overall frustration. But in reality it is a lack of intentional architectural design. 
+Messy code doesn't stay inside the codebase. It infects the entire organization. It creates stressed out developers, stressed out CTOs, stressed out product managers, stressed out clients, and stressed out business owners. Instead of the codebase serving the business the business begins to serve the codebase. And the further you are from the code itself, the harder it is to see that the codebase is the real problem. From the outside, it may look like slow developers, missed deadlines, angry clients, engineers quitting, and overall frustration. But in reality it is a lack of intentional architectural design. 
 
 ## 📐 MVVM Benefits
 
-- MVVM is a deliberate, scalable, production ready architectural design choice. The Flutter team at Google recommends it and it is the same architecture my team used on the Jimmy John's mobile application.
+- MVVM is a deliberate, scalable, production-ready architectural design choice. The Flutter team at Google recommends it and it is the same architecture my team used on the Jimmy John's mobile application.
 
 - MVVM gives you unidirectional data flow. Data moves from layer to layer through constructors, establishing clear connections between classes. Each layer receives what it needs and nothing more. 
 
@@ -25,7 +25,7 @@ Messy code doesn't stay inside the codebase it infects the entire organization. 
 
 ## 🧩 Separation of Concerns
 
-Separation of Concerns is a core principle in software development. It promotes modularity, scalability, and maintainability by dividing application functionality into distinct, self contained units. From a high level this means separating your UI logic from your business logic. 
+Separation of Concerns is a core principle in software development. It promotes modularity, scalability, and maintainability by dividing application functionality into distinct, self-contained units. From a high level this means separating your UI logic from your business logic. 
 
 ### The **business logic layer** is organized into **3 components**: 
 
