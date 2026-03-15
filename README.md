@@ -23,20 +23,31 @@ MVVM gives you unidirectional data flow ⚡️ Data moves from layer to layer th
 
 MVVM gives each view (UI component) exactly one view-model. Thus each pair of view and ViewModel make up the UI layer for a single feature.
 
-MVVM enforces a clear folder structure. The ui_logic folder is responsible for your views and view models. The business_logic folder is responsible for your repositories, services, and domain models.
+MVVM enforces a clear folder structure. The ui_logic folder is responsible for your views and view-models. The business_logic folder is responsible for your repositories, services, and domain models.
 
-The business logic layer is organized into 3 components: 
+### The **business logic layer** is organized into **3 components**: 
 
-- 🌐 **Services** 
+- 🌐 **Services**
+  
+- 🧱 **Domain Models**
+  
 - 📦 **Repositories**
-- 🧬 **Domain Models**
+
+
+---
+🌐 **Services**
 
 **Services** are classes that are responsible for interacting with external APIs. Each method wraps a specific API endpoint and returns an asynchronous response. Any data that is not generated internally should be retrieved exclusively through the services layer.
 
-**Domain models** represent the structured data that the application operates on. They define the core entitites of the system. 
+---
+🧱 **Domain Models**
+
+**Domain Models** represent the structured data that the application operates on. They define the core entitites of the system. 
+
+---
+📦 **Repository**
 
 **Repositories** transform raw data (json) returned from a service into domain model instances. These domain model instances are then passed to the ViewModel allowing the view (UI) to work with clean structured application data. 
-
 
 
 
