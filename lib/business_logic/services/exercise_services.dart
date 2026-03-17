@@ -23,6 +23,5 @@ class ExerciseServices {
     return exerciseRawJson
         .map((json) => ExerciseDomainModel.fromJson(json))
         .toList();
-    ;
   }
 }
